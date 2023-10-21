@@ -12,16 +12,6 @@ import { NavItem } from "@/types/type"
 import { cn } from "@/lib/utils"
 
 import { Button } from "@/components/ui/button"
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetDescription,
-  SheetFooter,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"
 import { Siemreap } from "next/font/google"
 
 const items = siteConfig.mainNav
