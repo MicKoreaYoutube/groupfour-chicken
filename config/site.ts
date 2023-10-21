@@ -24,5 +24,5 @@ export const siteConfig = {
     micInstagram: "https://instagram.com/leejunsibal",
     github: "https://github.com/MicKoreaYoutube/groupfour-chicken"
   },
-  image: ["eunchae.png", "chaelin.png", "junyoung.png", "seung.png"]
+  image: ["eunchae.png", "chaelin.png", "junyoung.png", "seung.png", "https://pds.joongang.co.kr/news/component/joongang_sunday/201903/13/d482940f-f9a2-4c52-becd-a4bda5d283cf.jpg", "boccummyun.png", "nengdong.png", "https://mblogthumb-phinf.pstatic.net/MjAyMDA2MjJfMTIz/MDAxNTkyODIwNzQxNzg2.GMAZPaKlFQoYcx-_3naCX056Q4J59iduo0ctkIaFrzcg.I-mI-J7Wn2e8_6SNqPHX5P-FA587kyaKKCGo9tng3VEg.JPEG.sooyong8721/IMG_7034.JPG?type=w800"]
 }

@@ -34,7 +34,7 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-end space-x-4">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon"><Menu className="h-4 w-4" /></Button>
+              <Button variant="ghost" className="block sm:hidden"><Menu className="h-4 w-4" /></Button>
             </SheetTrigger>
             <SheetContent>
               <SheetHeader className="mb-4">
