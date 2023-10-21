@@ -30,7 +30,7 @@ export default function Page() {
             <Link
               target="_blank"
               rel="noreferrer"
-              href={siteConfig.links.micGithub}
+              href={siteConfig.links.github}
               className={buttonVariants({ variant: "outline" })}
             >
               GitHub
