@@ -6,8 +6,16 @@ export const siteConfig = {
     "A nextjs template by MicKoreaYoutube based on shadcn-ui",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
+      title: "소개",
+      href: "/about"
+    },
+    {
+      title: "메뉴",
+      href: "/menu"
+    },
+    {
+      title: "임원",
+      href: "/executives"
     },
   ],
   links: {
@@ -15,6 +23,7 @@ export const siteConfig = {
     shadcnGithub: "https://github.com/shadcn/ui",
     shadcnuiDocs: "https://ui.shadcn.com",
     micInstagram: "https://instagram.com/leejunsibal",
-    micGithub: "https://github.com/MicKoreaYoutube/mic-next-template"
+    micGithub: "https://github.com/MicKoreaYoutube/mic-next-template",
+    github: "https://github.com/MicKoreaYoutube/groupfour-chicken"
   },
 }
