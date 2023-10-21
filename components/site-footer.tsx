@@ -9,14 +9,14 @@ const items = siteConfig.footerContent
 
 export function SiteFooter() {
   return (
-    <footer className="bg-white dark:bg-gray-900 border-t">
+    <footer className="bg-white dark:bg-gray-900 border-t font-RixInooAriDuriR">
       <div className="container p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
+            <span className="flex items-center">
               <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="FlowBite Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">GROUPFOUR CHICKEN</span>
-            </a>
+            </span>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-24 sm:grid-cols-3">
             {items?.length ? (
@@ -24,7 +24,7 @@ export function SiteFooter() {
                 {items?.map(
                   (item: any, index: any) =>
                     <div key={index}>
-                      <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">{item.title}</h2>
+                      <h2 className="mb-6 text-2xl font-semibold text-gray-900 uppercase dark:text-white">{item.title}</h2>
                       <ul className="text-gray-500 dark:text-gray-400 font-medium">
                         {item.content?.length ? (
                           <>
